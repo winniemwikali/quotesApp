@@ -25,7 +25,7 @@ import { DateCountPipe } from './date-count.pipe';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    // MomentModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
