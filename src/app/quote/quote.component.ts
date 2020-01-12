@@ -9,10 +9,10 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-    new Quote(1, 'Be the reason somebody smiles today', 'Roy T', 'Winnie', new Date(2020, 11, 1), 0, 0),
-    new Quote(2, 'We were born to be real not to be perfect', 'Ralph Marston', 'Winnie', new Date(2020, 8, 1), 0, 0)
-    
-  ]
+    new Quote(1, 'Be the reason somebody smiles today', 'Roy T', 'Winnie', new Date(2017, 11, 1), 0, 0),
+    new Quote(2, 'We were born to be real not to be perfect', 'Ralph Marston', 'Winnie', new Date(2014, 8, 1), 0, 0),
+    new Quote(3,'Let life surprise you','David Richo','winnie',new Date(2012,2,3),0,0)
+  ];
 
   likeNo = 0;
   dislikeNo = 0;
@@ -48,10 +48,3 @@ export class QuoteComponent implements OnInit {
 
 
 
-// quoteDelete(isComplete, index){
-//   let QuoteDelete = confirm('Delete this'+ this.quotes[index].quote)
-
-//   if (QuoteDelete) {
-//     this.quotes.splice(index, 1)
-//   }
-// }

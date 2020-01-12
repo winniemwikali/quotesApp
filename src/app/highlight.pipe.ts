@@ -1,12 +1,11 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, ElementRef } from '@angular/core';
 
 @Pipe({
-  name: 'highlight'
+  name: '[highlight]'
 })
-export class HighlightPipe {
-
-  transform(value: any, ...args: any[]): any {
-    return null;
-  }
-
+export class HighlightDirective {
+  constructor(elem:ElementRef) {
+    elem.nativeElement.style.backgroundColor="#834c69"
+   }
 }
+

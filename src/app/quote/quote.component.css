@@ -1,0 +1,20 @@
+h4{
+    font-family: 'Fugaz One', cursive;
+    color:yellow;
+}
+
+h1{
+font-family: 'Berkshire Swash', cursive;
+font-size: 15vh;
+color: yellow;
+}
+
+.details{
+    list-style: none;
+    padding: 2% 2% 10% 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+.container{
+    background-color: green;
+}

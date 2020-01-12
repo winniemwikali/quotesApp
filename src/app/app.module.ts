@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { HighlightPipe } from './highlight.pipe';
+import { HighlightDirective} from './highlight.pipe';
 import { DateCountPipe } from './date-count.pipe';
 // import { MomentModule } from 'ngx-moment';
 
@@ -18,7 +18,7 @@ import { DateCountPipe } from './date-count.pipe';
     QuoteComponent,
     QuoteDetailsComponent,
     QuoteFormComponent,
-    HighlightPipe,
+    HighlightDirective,
     DateCountPipe
   ],
   imports: [
