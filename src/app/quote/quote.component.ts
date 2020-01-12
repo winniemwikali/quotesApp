@@ -14,14 +14,14 @@ export class QuoteComponent implements OnInit {
     new Quote(3,'Let life surprise you','David Richo','winnie',new Date(2012,2,3),0,0)
   ];
 
-  likeNo = 0;
-  dislikeNo = 0;
+  like(){} 0;
+  dislike(){};
 
-  like(index){
+  likeNo(index){
     this.quotes[index].likeNo+=1;
   }
 
-  dislike(index){
+  dislikeNo(index){
     this.quotes[index].dislikeNo+=1;
   }
 
