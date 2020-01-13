@@ -1,8 +1,14 @@
 # Author
-Winnie Mwikali
+Winnie Mwikali Web Developer
 # QuotesSite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+
+## Description
+- This  project is  an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+
+## Live Link
+https://winniemwikali.github.io/quotesApp/
 
 ## Development server
 
