@@ -7,9 +7,10 @@ export class Quote {
             public quote: string, 
             public author: string, 
             public by:string, 
-            public complete: Date,
+            public completeDate: Date,
             public likeNo: number,
-            public dislikeNo: number
+            public dislikeNo: number,
+
             )
         {
             this.showDescription = false;
